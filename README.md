@@ -1,0 +1,2 @@
+# mgaviewer
+Metagenomic alignments viewer
