@@ -1,0 +1,3 @@
+#alignment_file sample_id sample_name alignment_method
+sample1.frhit sample_id1 sample_name1 frhit
+sample3.sam sample_id3 sample_name3 sam

@@ -1,0 +1,173 @@
+html,body
+{
+    font-family:sans-serif;
+    color:#545454;
+    margin:0;
+}
+
+a {text-decoration:none;}
+
+#banner {color:#FFF;background:#555;padding:5px;padding-left:20px;font-weight:bold;font-size:1em;}
+#main {margin:10px;}
+
+#plotcontainer {
+}
+
+#placeholdermain
+{width:898px;height:600px;}
+
+#placeholdertop
+{width:898px;height:80px;}
+
+#placeholderbottom
+{width:898px;height:40px;}
+
+.legend {font-size:80%;}
+.legend table {border:solid 1px #AAA}
+.legendCount {font-weight:bold}
+
+#extlegend {
+    font-weight:bold;
+    font-size:0.6em;
+    margin-left:44px;
+}
+.legendfrag {
+    color:white;
+    padding:2px 5px 2px 5px;
+    margin:4px;
+}
+
+#xaxislabel
+{width:920px;text-align:center;margin:5px;color:#545454;font-weight:bold;font-size:80%}
+
+img .ylabel
+{margin:0}
+
+.note
+{width:920px;text-align:center;padding:8px;color:white;background:#545454;font-weight:bold;
+    margin-top:10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.label {background:#03c;color:white;padding-left:3px;padding-right:3px;font-size:80%}
+
+#placeholder {
+    margin-top:5px;
+}
+
+#placeholdermain .button {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    /*font-weight: bold;*/
+    font-size: 80%;
+    padding:0px;
+}
+
+#placeholder div.button {
+    font-size: smaller;
+    color: #999;
+    background-color: #eee;
+    padding: 2px;
+}
+
+.listdivider {
+    height:2px;
+    background:#aaa;
+    margin:0;
+}
+
+.message {
+    padding-left: 50px;
+    font-size: smaller;
+}
+
+#loader {
+    color:#f63e3e;
+    background:#FF0;
+    padding:5px;
+    font-weight:bold;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:10;
+}
+
+#loader img {
+    vertical-align: middle;
+}
+
+.clear {
+    clear:both;
+}
+
+#selections {
+    width:920px;
+    margin-top: 10px;
+}
+
+.selector {
+    margin:0;
+    width:49.5%;
+    height:250px;
+    font-size:80%;
+}
+
+.selector h4 {
+    text-align:center;
+    height:15px;
+    margin:0px;
+    padding:1px;
+    color:#fff;
+    background:#555;
+    border-radius:6px 6px 0 0;
+    -moz-border-radius:6px 6px 0 0;
+}
+
+.selector .selelist {
+    border:solid 1px #aaa;
+    overflow:auto;
+    height:230px;
+}
+
+.selector .listbody {
+}
+
+.selector .selected {
+    border:solid 1px #aaa;
+}
+
+.selector .selected div {
+    background:#cff;
+    border-bottom:solid 1px #BBB;
+}
+
+.selector div {
+    white-space:nowrap;
+    overflow:hidden;
+    border-bottom:1px solid #EEE;
+}
+
+.selector div .highlighted {
+    background:#cff;
+    border-bottom:solid 1px #BBB;
+}
+
+.attention {
+    background:#F55;
+}
+
+div.schbox {
+    background:#777;
+    color:#fff;
+    font-size:80%;
+    padding:2px 6px 2px 6px;
+    border-radius:0 0 6px 6px;
+    -moz-border-radius:0 0 6px 6px;
+}
+
+.matched {
+}
